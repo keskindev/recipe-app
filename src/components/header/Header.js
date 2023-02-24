@@ -5,7 +5,7 @@ import { HeaderContainer, MainHeader } from "./HeaderStyles";
 const Header = ({ setQuery, query, getData, mealTypes, setMeal, meal }) => {
   return (
     <HeaderContainer>
-      <MainHeader>Food App</MainHeader>
+      <MainHeader>FOOD APP</MainHeader>
       <Form
         setQuery={setQuery}
         query={query}

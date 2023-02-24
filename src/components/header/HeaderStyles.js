@@ -9,8 +9,11 @@ export const HeaderContainer = styled.div`
 `;
 
 export const MainHeader = styled.h2`
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 3rem;
+  font-family: "Mynerve", cursive;
+  color: #e1f1dd;
+  text-shadow: 1px 1px 4px black;
 `;
 
 export const FormContainer = styled.form`

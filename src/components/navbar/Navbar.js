@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Menu, Hamburger, Logo, MenuLink, Nav } from "./NavbarStyles";
-
+import img from "../../img/food-logo.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav>
       <Logo to="/">
-        <i>{"<Clarusway>"}</i>
-        <span>recipe</span>
+        <img src={img} alt="" />
+        <span>RECİPE</span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span></span>
@@ -17,7 +17,7 @@ const Navbar = () => {
 
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
-        <MenuLink to={{ pathname: "https://github.com/keskindev" }}>
+        <MenuLink target="_blank" to="https://github.com/keskindev">
           Github
         </MenuLink>
         <MenuLink to="/login">Logout</MenuLink>

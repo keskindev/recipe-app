@@ -52,7 +52,7 @@ export const Menu = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  @media (max-width: 815px) {
+  @media (max-width: 820px) {
     overflow: hidden;
     flex-direction: column;
     width: 100%;
@@ -66,13 +66,19 @@ export const Logo = styled(Link)`
   text-decoration: none;
   font-weight: 800;
   font-size: 2rem;
-  i {
-    font-family: "Girassol", sans-serif;
+  position: relative;
+  top: -10px;
+  img {
+    width: 55px;
   }
   span {
     font-family: "Girassol", sans-serif;
     font-weight: 400;
     font-size: 2rem;
     color: #00adb5;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 1px 2px black;
+    padding: 20px;
   }
 `;
