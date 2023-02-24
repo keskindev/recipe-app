@@ -21,7 +21,7 @@ export const Hamburger = styled.div`
     width: 25px;
     background: #00adb5;
     margin-bottom: 4px;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   @media (max-width: 820px) {
     display: flex;
