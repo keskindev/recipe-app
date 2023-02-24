@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav>
-      <Logo to="/">
+      <Logo to="/home">
         <img src={img} alt="" />
         <span>RECİPE</span>
       </Logo>
@@ -20,7 +20,7 @@ const Navbar = () => {
         <MenuLink target="_blank" to="https://github.com/keskindev">
           Github
         </MenuLink>
-        <MenuLink to="/login">Logout</MenuLink>
+        <MenuLink to="/">Logout</MenuLink>
       </Menu>
     </Nav>
   );
