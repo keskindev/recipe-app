@@ -1,11 +1,11 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-007 : Recipe App (RC-07)
+# Project-009 : FireContact App (RC-09)
 
 ## Description
 
-Project aims to create a Recipe App.
+Project aims to create a FireContact App.
 
 ## Problem Statement
 
@@ -14,7 +14,7 @@ Project aims to create a Recipe App.
 ## Project Skeleton
 
 ```
-007 - Recipe App (folder)
+009 - FireContact App (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
@@ -22,30 +22,13 @@ SOLUTION
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── about
-│    │       │     ├── About.js
-│    │       │     └── style.js
-│    │       ├── details
-│    │       │     ├── Details.js
-│    │       │     └── style.js
-│    │       ├── header
-│    │       │     ├── Header.js
-│    │       │     ├── Form.js
-│    │       │     └── style.js
-│    │       ├── login
-│    │       │     ├── Login.js
-│    │       │     └── style.js
-│    │       ├── navbar
-│    │       │     ├── Navbar.js
-│    │       │     └── style.js
-│    │       └── recipe
-│    │             ├── Main.js
-│    │             ├── RecipeCard.js
-│    │             └── style.js
-│    ├── router
-│    │       └── AppRouter.js
-│    ├── assets
-│    │       └── [images]
+│    │       ├── form
+│    │       │     └── Form.js
+│    │       └── table
+│    │             └── Table.js
+│    ├── utils
+│    │       ├── customToastify.js
+│    │       └── firebase.js
 │    ├── App.js
 │    ├── App.css
 │    ├── index.js
@@ -56,11 +39,11 @@ SOLUTION
 
 ## Expected Outcome
 
-![Project 007 Snapshot](food-search-app.gif)
+![Project 009 Snapshot](firecontact.gif)
 
 ## Objective
 
-Build a Recipe App using ReactJS.
+Build a FireContact App using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
@@ -80,11 +63,11 @@ Build a Recipe App using ReactJS.
 
 ## Steps to Solution
 
-- Step 1: Create React App using `npx create-react-app recipe-app`
+- Step 1 : Create React App using `npx create-react-app firecontact-app`
 
-- Step 2: Signup `https://developer.edamam.com/edamam-docs-recipe-api` and get api key.
+- Step 2 : Signup `https://firebase.google.com/` and create new app in firebase.
 
-- Step 3 : Using api key and `axios` for getting data from `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`.
+- Step 3 : Use `https://firebase.google.com/docs/database/web/start` and create `CRUD` operations.
 
 - Step 4: You can use css frameworks like Bootstrap, Semantic UI.
 
